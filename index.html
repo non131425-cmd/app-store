@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>マイ・セレクトアプリストア</title>
+    <style>
+        body { font-family: sans-serif; background: #f4f6f9; margin: 0; padding: 0; color: #333; }
+        header { background: linear-gradient(135deg, #1f4068, #162447); color: white; text-align: center; padding: 40px 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        header h1 { margin: 0; font-size: 28px; }
+        header p { margin: 10px 0 0; opacity: 0.8; }
+        .container { max-width: 1000px; margin: 30px auto; padding: 0 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .app-card { background: white; border-radius: 15px; padding: 25px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.05); transition: transform 0.2s; }
+        .app-card:hover { transform: translateY(-5px); }
+        .app-icon { font-size: 45px; margin-bottom: 10px; }
+        .app-name { font-size: 20px; font-weight: bold; margin: 10px 0 5px; }
+        .app-desc { font-size: 14px; color: #666; min-height: 40px; margin-bottom: 20px; }
+        .btn-download { display: block; background: #007bff; color: white; padding: 12px; text-decoration: none; border-radius: 8px; font-weight: bold; }
+        .btn-download:hover { background: #0056b3; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>📱 マイ・セレクトアプリストア</h1>
+        <p>厳選された本物の人気アプリをお届けします</p>
+    </header>
+    <div class="container">
+        <div class="app-card">
+            <div class="app-icon">🦖</div>
+            <div class="app-name">Pokémon GO</div>
+            <div class="app-desc">現実世界でポケモンを捕まえよう！世界中で大人気の位置情報ゲーム。</div>
+            <a href="https://google.com" class="btn-download" target="_blank">Google Play で入れる</a>
+        </div>
+        <div class="app-card">
+            <div class="app-icon">📺</div>
+            <div class="app-name">YouTube</div>
+            <div class="app-desc">動画配信、音楽、ゲーム実況など、世界最大の動画プラットフォーム。</div>
+            <a href="https://google.com" class="btn-download" target="_blank">Google Play で入れる</a>
+        </div>
+        <div class="app-card">
+            <div class="app-icon">📸</div>
+            <div class="app-name">Instagram</div>
+            <div class="app-desc">写真や動画の共有、ストーリーズやリールで友達と繋がろう。</div>
+            <a href="https://google.com" class="btn-download" target="_blank">Google Play で入れる</a>
+        </div>
+    </div>
+</body>
+</html>
